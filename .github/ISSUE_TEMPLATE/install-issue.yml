@@ -1,0 +1,50 @@
+name: Install / first-run problem
+description: Trouble installing or starting Bond for the first time.
+title: "[Install]: "
+labels: ["install"]
+body:
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - Windows 11
+        - Windows 10
+        - macOS (Sonoma / 14.x)
+        - macOS (Ventura / 13.x)
+        - macOS (older)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: stage
+    attributes:
+      label: Where did it fail?
+      options:
+        - Downloading the installer
+        - Running the installer (Windows SmartScreen warning)
+        - Running the installer (macOS Gatekeeper warning)
+        - During installation
+        - First launch
+        - Pasting the redemption code
+        - Connecting an LLM provider key
+        - Other (describe below)
+    validations:
+      required: true
+
+  - type: textarea
+    id: detail
+    attributes:
+      label: What did you see?
+      description: |
+        Error messages, screenshots, etc. Redact any redemption codes or
+        API keys before posting.
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Bond installer version
+      description: From the filename you downloaded (e.g. 1.4.5-alpha.1).
+      placeholder: "1.4.5-alpha.1"

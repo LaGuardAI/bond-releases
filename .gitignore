@@ -1,0 +1,26 @@
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Accidental binary commits — installers go in GitHub Releases, never in git
+*.exe
+*.dmg
+*.msi
+*.pkg
+*.zip
+*.tar.gz
+*.tgz
+*.AppImage
+
+# Node tooling (in case docs adds linters later)
+node_modules/
+
+# Logs
+*.log

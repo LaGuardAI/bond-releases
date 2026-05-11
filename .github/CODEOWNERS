@@ -1,0 +1,6 @@
+# Bond Releases CODEOWNERS
+#
+# Every PR on this repository requires review by @ygolandsky1.
+# Branch protection on `main` enforces this via "require code-owner review".
+
+* @ygolandsky1
