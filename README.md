@@ -39,5 +39,4 @@ binaries.
 
 ## Links
 
-- LaGuardAI: https://laguardai.com
 - License service status: https://license.ai-bond.dev/health
