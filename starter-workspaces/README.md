@@ -19,4 +19,8 @@ Each template is structure-only — project context, teammate definitions
 rules. No conversation history, no LLM cost data, no provider keys.
 After import, you connect your own LLM provider keys in Bond's settings.
 
-_These templates are being prepared and will be added shortly._
+_Templates land in this directory once the alpha cohort starts inviting
+contributors and we have real-world starter shapes worth shipping. Until
+then this is a placeholder — the import flow exists in the desktop app
+(Settings → Workspaces → Import workspace) and is exercised regularly,
+so when templates land they will work out of the box._
