@@ -2,7 +2,7 @@
   <img src="https://ai-bond.dev/bond-logo.svg" alt="Bond" width="96" />
 </p>
 
-<h1 align="center">Bond</h1>
+<h1 align="center">Lorah</h1>
 
 <p align="center"><em>Where your thinking continues.</em></p>
 
