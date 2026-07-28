@@ -1,5 +1,5 @@
 name: Install / first-run problem
-description: Trouble installing or starting Bond for the first time.
+description: Trouble installing or starting Lorah for the first time.
 title: "[Install]: "
 labels: ["install"]
 body:
@@ -45,6 +45,6 @@ body:
   - type: input
     id: version
     attributes:
-      label: Bond installer version
+      label: Lorah installer version
       description: From the filename you downloaded (e.g. 1.4.5-alpha.1).
       placeholder: "1.4.5-alpha.1"
