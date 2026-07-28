@@ -1,5 +1,5 @@
 name: Bug report
-description: Report a bug in the Bond desktop application.
+description: Report a bug in the Lorah desktop application.
 title: "[Bug]: "
 labels: ["bug"]
 body:
@@ -13,7 +13,7 @@ body:
   - type: input
     id: version
     attributes:
-      label: Bond version
+      label: Lorah version
       description: From the desktop app's About menu (e.g. 1.4.5-alpha.1).
       placeholder: "1.4.5-alpha.1"
     validations:
@@ -47,7 +47,7 @@ body:
       label: Steps to reproduce
       description: Numbered steps. Be specific.
       placeholder: |
-        1. Open Bond
+        1. Open Lorah
         2. Click ...
         3. See error
     validations:

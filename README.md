@@ -1,15 +1,15 @@
 <p align="center">
-  <img src="https://ai-bond.dev/bond-logo.svg" alt="Bond" width="96" />
+  <img src="https://ai-bond.dev/bond-logo.svg" alt="Lorah" width="96" />
 </p>
 
-<h1 align="center">Bond</h1>
+<h1 align="center">Lorah</h1>
 
 <p align="center"><em>Where your thinking continues.</em></p>
 
 <p align="center">
   <a href="https://github.com/LaGuardAI/bond-releases/releases/latest"><b>Download</b></a> ·
-  <a href="https://ai-bond.dev/quickstart/">Quickstart</a> ·
-  <a href="https://ai-bond.dev/">Website</a>
+  <a href="https://lorah.ai/quickstart/">Quickstart</a> ·
+  <a href="https://lorah.ai/">Website</a>
 </p>
 
 <p align="center">
@@ -18,15 +18,15 @@
 
 ---
 
-Bond is a local-first desktop app that turns your AI subscriptions into a
+Lorah is a local-first desktop app that turns your AI subscriptions into a
 coordinated team of persistent specialists with shared, traceable project
 memory. You bring your own provider keys, configure named teammates, and your
 work — decisions, facts, context — accumulates across sessions instead of
 scattering across chat tabs.
 
-**Bond is in invite-only alpha.** You'll need a license key to activate. Got an
+**Lorah is in invite-only alpha.** You'll need a license key to activate. Got an
 invite? Your key is in the email. Don't have one? You can buy a license at
-[ai-bond.dev](https://ai-bond.dev/).
+[lorah.ai](https://lorah.ai/).
 
 ## Download
 
@@ -35,20 +35,20 @@ Get the latest build from the
 
 | Platform | File |
 |---|---|
-| Windows 10 or later | `Bond-<version>.exe` |
-| macOS 13+ — Apple silicon (M1–M4) | `Bond-<version>-arm64.dmg` |
-| macOS 13+ — Intel | `Bond-<version>-x64.dmg` |
+| Windows 10 or later | `Lorah.Setup.<version>.exe` |
+| macOS 13+ — Apple silicon (M1–M4) | `Lorah-<version>-arm64.dmg` |
+| macOS 13+ — Intel | `Lorah-<version>-x64.dmg` |
 
 Not sure which Mac you have? Apple menu →  **About This Mac**. "Apple M…" means
 Apple silicon.
 
 ## Get started
 
-The [**Quickstart**](https://ai-bond.dev/quickstart/) is the canonical guide —
+The [**Quickstart**](https://lorah.ai/quickstart/) is the canonical guide —
 install, license, first chat, and walkthrough videos for all six surfaces
-(Ask Bond, Chat, Memory, Sync, Library, Meetings).
+(Ask Lorah, Chat, Memory, Sync, Library, Meetings).
 
-The short version: install → open Bond → paste your license key in
+The short version: install → open Lorah → paste your license key in
 **Settings → License** → add at least one provider key (Anthropic, OpenAI,
 Perplexity, or Gemini; stored locally on your machine) → setup builds your
 first workspace and team.
@@ -74,34 +74,34 @@ manually from the Releases page; auto-update resumes normally after that.
 
 ## Known limitations
 
-Bond works, and it's early. Expect:
+Lorah works, and it's early. Expect:
 
 - **First sync is slow** — 30–60 seconds the first time. Normal; later syncs
   are faster.
-- **Costs are yours** — you're using your own provider keys. Bond shows cost
+- **Costs are yours** — you're using your own provider keys. Lorah shows cost
   per teammate and per sync.
 - **Voice needs an OpenAI key** — transcription uses Whisper; the mic button
   appears but won't work without one configured.
 - **Branches are for short explorations** — no branch-from-branch, and
   @-mentions don't resolve while you're on a branch in this build.
-- **Occasional sync hiccup** — if a sync's analysis can't be parsed, Bond
+- **Occasional sync hiccup** — if a sync's analysis can't be parsed, Lorah
   retries once, then continues without injections for that sync rather than
   blocking you.
 
 ## Updating
 
-Bond checks for updates on launch and installs them the next time you quit and
+Lorah checks for updates on launch and installs them the next time you quit and
 relaunch. Check manually at **Settings → Advanced → About**. Your workspaces,
 conversations, memories, and keys are preserved across updates.
 
 ## Support
 
-Email [support@ai-bond.dev](mailto:support@ai-bond.dev). Found a bug? Reply to
+Email [support@lorah.ai](mailto:support@lorah.ai). Found a bug? Reply to
 your invite email — we read everything. Discord and a public bug tracker are
 coming.
 
 ---
 
 Full documentation and walkthrough videos live at the
-[**Quickstart**](https://ai-bond.dev/quickstart/). This page just gets you to
+[**Quickstart**](https://lorah.ai/quickstart/). This page just gets you to
 the download and flags what's specific to alpha.
