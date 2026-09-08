@@ -47,9 +47,9 @@ disable Gatekeeper or bypass your organization's security policy.
 ### Updating
 
 Lorah checks for updates on launch and installs them the next time you
-quit and relaunch. To check manually: **Settings → Advanced → About →
-Check for updates**. Your workspaces, conversations, memories, and API
-keys are preserved across updates.
+quit and relaunch. To check manually, open **Settings → Advanced** and
+click **Check for updates** on the version tile. Your workspaces,
+conversations, memories, and API keys are preserved across updates.
 
 ---
 
