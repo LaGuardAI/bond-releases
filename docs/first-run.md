@@ -1,28 +1,61 @@
 # First run
 
-The full first-run walkthrough — with screenshots — lives in the
-[Quickstart](https://lorah.ai/quickstart/). This is the short version.
+You can download and start using Lorah without a beta invitation. A provider
+account, product subscription and optional beta grant are different things.
+Model usage still requires access to a supported provider or compatible
+model endpoint.
 
-When you open Lorah for the first time, setup walks you through three
-things:
+## 1. Start with a project
 
-1. **Your workspace** — a project container that holds your team, its
-   shared memory, and your documents.
-2. **An AI provider key** — Lorah is bring-your-own-key (BYOK). Add at
-   least one key from Anthropic, OpenAI, Perplexity, or Google Gemini.
-   Keys are stored locally on your machine, never in the cloud.
-3. **Your license code** — Lorah is invite-only alpha. Paste the key from
-   your invite email in **Settings → License**. (If you bought a
-   license, paste the key Lorah emailed you in the same place.)
+Create a project for one piece of work, or explore a starter workspace.
+The project holds your specialists, documents, conversations and reviewed
+knowledge. Replace example material before treating the workspace as your
+own project record.
 
-By the end you'll have a workspace, your first teammates, and a short
-welcome from Yoram waiting in your Review Queue. Open it to watch.
+Automatic setup has its own model requirements. Use the prerequisites shown
+in your installed build. A model that works for a specialist is not
+necessarily eligible to draft a project or perform internal AI work.
 
-**Next:** meet your team and run your first sync. The
-[Quickstart](https://lorah.ai/quickstart/) covers all six surfaces —
-Ask Lorah, Chat, Memory, Sync, Library, and Meetings — each with a short
-walkthrough video.
+## 2. Connect model access
 
----
+Configure a supported provider API key or compatible endpoint in Lorah's
+settings. A consumer chat subscription is not the same thing as API access.
 
-Stuck? Email [support@lorah.ai](mailto:support@lorah.ai).
+Cloud model requests send the selected context to the configured provider.
+Choosing a local or private model for one specialist does not automatically
+change every internal AI job or disable operational network services.
+
+Keep the first test small and use non-sensitive material while you check
+where the selected operation runs and what it includes.
+
+## 3. Do one useful task
+
+For example, add a short project brief and ask one specialist to identify
+its unresolved assumptions. Review the answer against the document. Inspect
+any delivery or omission information and recorded usage the operation
+provides.
+
+Before relying on a document, check how it is assigned or made available.
+Being stored in the project is not proof that it was delivered for a
+particular answer.
+
+## 4. Decide what should survive
+
+Use the Memory capture action available in your installed version. Inspect
+the proposed content and its origin before approval. Reject an incorrect
+claim rather than allowing it to become context for later work.
+
+An answer and an approved Memory item are different records. Keep the fact
+or decision that matters; there is no need to save the entire conversation
+as Memory.
+
+## 5. Check your plan separately
+
+The Free plan, Pro access and model-provider usage are separate. Check the
+installed application's license settings and the [Plans page](https://lorah.ai/pricing/)
+for the current offer. Redeem a beta or purchase code only when you have one;
+a beta invitation is not a prerequisite for the standard download.
+
+For the detailed walkthrough, use the [Quickstart](https://lorah.ai/quickstart/).
+For help, email [support@lorah.ai](mailto:support@lorah.ai) with your version
+and platform. Do not include credentials or confidential project content.
