@@ -1,10 +1,11 @@
 # Starter workspaces
 
 Importable workspace templates for getting started with Lorah. Each `.json`
-file in this directory is a Lorah workspace export — open Lorah, choose
-**Settings → Workspaces → Import workspace**, and select the file. The
-import creates a new workspace pre-populated with goals, teammates,
-shared memory, and rules tuned for a specific use case.
+file in this directory is a Lorah workspace export — open Lorah, go to
+**Settings → Workspace → Transfer → Import workspace**, click
+**Choose file…**, and select the file. The import creates a new workspace
+pre-populated with goals, teammates, shared memory, and rules tuned for a
+specific use case.
 
 ## Available templates
 
@@ -27,16 +28,21 @@ Lorah's workspace export bundle (the JSON file) includes:
 Provider keys and other credentials are stripped from each export, and
 workspace and teammate cost totals are reset. The sample conversations,
 sync records and their token and cost figures belong to the worked example
-and describe no usage of yours. The templates are configured for Anthropic
-models; after import, review each teammate's provider and model, and
-connect your own provider keys in Lorah's **Settings → Providers**.
+and describe no usage of yours. These templates are configured for
+Anthropic models. Before sending a message, connect the required Anthropic
+API access in **Settings → API Keys**, or change the Specialist to another
+supported model and configure its access.
 
 ## Import flow
 
 1. Open Lorah on your machine (see [`../docs/install-windows.md`](../docs/install-windows.md) / [`../docs/install-macos.md`](../docs/install-macos.md) if you're not installed yet)
-2. **Settings → Workspaces → Import workspace**
-3. Pick the `.json` file
-4. Lorah opens the new workspace, ready to use
+2. **Settings → Workspace → Transfer → Import workspace**
+3. Click **Choose file…** and pick the `.json` file
+4. The import creates a new project containing the worked example. Review
+   and confirm each Specialist's imported instructions before using that
+   Specialist. Imported Memory is not automatically accepted as your project
+   knowledge. Review the items you want to keep; leave the rest pending or
+   reject them.
 
 If you've never run Lorah before, complete the
 [first-run setup](../docs/first-run.md) first (a project and model access

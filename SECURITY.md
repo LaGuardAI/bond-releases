@@ -30,7 +30,9 @@ updates. Please upgrade promptly.
 In scope:
 
 - The Lorah desktop application (`Lorah.Setup *.exe`, `Lorah *.dmg`)
-- The Lorah license service API at `https://license.lorah.ai`
+- The Lorah license service API, reached at `https://license.ai-bond.dev`
+  (the address the installed application uses) and at
+  `https://license.lorah.ai`
 - Materials in this repository (docs, templates, configuration)
 
 Out of scope:
