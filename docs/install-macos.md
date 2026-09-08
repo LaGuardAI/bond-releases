@@ -19,28 +19,30 @@ means Apple silicon; "Intel" means Intel.
 Open the `.dmg`, then drag the **Lorah** icon into your **Applications**
 folder. Eject the disk image and launch Lorah from Applications.
 
-Lorah is signed with an Apple Developer ID and notarized by Apple, so it
-opens without a Gatekeeper warning. macOS shows **Yoram Golandsky** as
-the verified developer.
+Lorah's release builds are signed with an Apple Developer ID and notarized
+by Apple. macOS may ask you to confirm the first launch of an application
+downloaded from the internet. The developer shown is **Yoram Golandsky**.
 
 ## 3. First launch
 
-On first launch you'll be guided through setup — your workspace, an AI
-provider key, and your license code. See [First run](first-run.md) for
-the short version, or the full [Quickstart](https://lorah.ai/quickstart/)
-for the walkthrough with screenshots.
+On first launch, set up a project and connect model access through one of
+the supported setup paths; each path shows its own model requirements. A
+beta invitation or license code is not required to start; redeem a beta or
+purchase code only if you have one. See [First run](first-run.md) for the
+short version, or the [Quickstart](https://lorah.ai/quickstart/) for the
+detailed walkthrough.
 
 ---
 
 ### If macOS blocks the app
 
-If you see "Lorah can't be opened because Apple cannot check it for
-malicious software," you most likely have an incomplete or older
-download. Re-download the current `.dmg` from the
+If macOS cannot verify the application or reports that it is damaged or
+malicious, stop the installation. Confirm that you downloaded the current
+release from the official
 [releases page](https://github.com/LaGuardAI/bond-releases/releases). If
-it persists, open **System Settings → Privacy & Security**, scroll to
-the Lorah notice, and click **Open Anyway** — then email
-[support@lorah.ai](mailto:support@lorah.ai) so we can look into it.
+the problem persists, contact [support@lorah.ai](mailto:support@lorah.ai)
+with the exact message, the Lorah version and your macOS version. Do not
+disable Gatekeeper or bypass your organization's security policy.
 
 ### Updating
 

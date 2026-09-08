@@ -14,27 +14,22 @@ shared memory, and rules tuned for a specific use case.
 | [`Sample_GTM_Launch_SignalNest.json`](Sample_GTM_Launch_SignalNest.json) | Go-to-market launch team running a launch (fictional "SignalNest" product) | Sample — GTM Launch: SignalNest |
 | [`Sample_Personal_Board_of_Directors.json`](Sample_Personal_Board_of_Directors.json) | Personal board of directors — a panel of specialist teammates that challenge you on career, financial, strategic, and life-decision questions | Sample — Personal Board of Directors |
 
-> **Note on the Personal Board template.** Earlier drafts of this directory
-> planned an "investment research team" template. That was replaced with the
-> Personal Board of Directors shape — broader in scope (career + financial +
-> strategic decisions, not just investments), and a better fit for Lorah's
-> "persistent specialists that hold context across sessions" design.
-
 ## What's in each export
 
 Lorah's workspace export bundle (the JSON file) includes:
 
 - **Workspace** — name, goals, constraints, principles, priorities
-- **Teammates** — name, personality, role, responsibilities, deliverable format, rules
-- **Memory** — decisions, facts, glossary, project context already curated for the use case
+- **Teammates** — name, personality, role, responsibilities, deliverable format, rules, and each teammate's sample conversation from the worked example
+- **Memory** — the Memory included in these templates belongs to the worked example. It is not knowledge captured or approved from your own project. Review, replace or remove it before relying on it
 - **Documents** — pinned reference docs (worked-example artifacts; you can replace with your own)
-- **Recipes** — shared workflows / multi-teammate routines
-- **Meetings** — sample meeting structures
-- **Syncs + handoffs** — operational scaffolding
+- **Sync records** — sample sync runs from the worked example, including their example token and cost figures
 
-Each export is **structure + curated context only**. No conversation
-history, no LLM usage data, no provider keys. After import, connect
-your own provider keys in Lorah's **Settings → Providers**.
+Provider keys and other credentials are stripped from each export, and
+workspace and teammate cost totals are reset. The sample conversations,
+sync records and their token and cost figures belong to the worked example
+and describe no usage of yours. The templates are configured for Anthropic
+models; after import, review each teammate's provider and model, and
+connect your own provider keys in Lorah's **Settings → Providers**.
 
 ## Import flow
 
@@ -44,8 +39,9 @@ your own provider keys in Lorah's **Settings → Providers**.
 4. Lorah opens the new workspace, ready to use
 
 If you've never run Lorah before, complete the
-[first-run setup](../docs/first-run.md) first (workspace, provider key,
-license code), then import the template afterward into a fresh workspace.
+[first-run setup](../docs/first-run.md) first (a project and model access
+through a supported setup path), then import the template afterward into a
+fresh workspace. No beta invitation or license code is needed to start.
 
 ## Worked examples
 
