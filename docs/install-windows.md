@@ -10,28 +10,32 @@ Download the latest Lorah installer (`Lorah.Setup.<version>.exe`) from the
 ## 2. Run the installer
 
 Open the `.exe` from your Downloads folder. Windows shows a User Account
-Control (UAC) prompt — this is expected. The publisher reads
-**Yoram Golandsky**. Lorah's installers are Authenticode-signed (v1.4.51
-and later), so you should not see a SmartScreen "unknown publisher"
-warning. Click through and Lorah installs.
+Control (UAC) prompt; this is expected. Lorah's release installers are
+Authenticode-signed and the publisher reads **Yoram Golandsky**. Check the
+publisher before you confirm. If the publisher shown is different, stop
+and download the installer again from the official releases page.
 
 ## 3. First launch
 
-On first launch you'll be guided through setup — your workspace, an AI
-provider key, and your license code. See [First run](first-run.md) for
-the short version, or the full [Quickstart](https://lorah.ai/quickstart/)
-for the walkthrough with screenshots.
+On first launch, set up a project and connect model access through one of
+the supported setup paths; each path shows its own model requirements. A
+beta invitation or license code is not required to start; redeem a beta or
+purchase code only if you have one. See [First run](first-run.md) for the
+short version, or the [Quickstart](https://lorah.ai/quickstart/) for the
+detailed walkthrough.
 
 ---
 
 ### If you see a SmartScreen warning
 
-Only the earliest alpha builds (v1.4.0–v1.4.3) were unsigned and
-triggered SmartScreen. If you somehow have one of those, download
-v1.4.51 or later from the
+Windows may show a SmartScreen warning for a newly released application,
+even when it is correctly signed. Download Lorah only from the official
 [releases page](https://github.com/LaGuardAI/bond-releases/releases) and
-install it once manually — auto-update resumes from there. Current
-releases are signed.
+check the publisher shown by Windows. If the publisher is unexpected, the
+signature cannot be verified, or Windows reports malicious software, stop
+and contact [support@lorah.ai](mailto:support@lorah.ai) with the exact
+warning, the installer filename and your Windows version. Do not disable
+SmartScreen or bypass your organization's security policy.
 
 ### Updating
 

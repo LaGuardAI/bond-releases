@@ -1,6 +1,6 @@
 # Security policy
 
-Lorah is in **alpha**. Security reports are prioritized above feature work.
+Security reports are prioritized above feature work.
 
 ## Reporting a vulnerability
 
@@ -21,9 +21,9 @@ coordinated disclosure timeline.
 
 ## Supported versions
 
-During alpha, we support security fixes only on the **latest released
-version**. Older alpha builds will not receive security updates — please
-upgrade promptly when new versions are released.
+For the public Lorah Desktop release channel, security fixes are provided
+in the **latest released version**. Older builds do not receive security
+updates. Please upgrade promptly.
 
 ## Scope
 
@@ -35,8 +35,9 @@ In scope:
 
 Out of scope:
 
-- Third-party LLM provider APIs (Anthropic, OpenAI, Google, Perplexity)
-  that Lorah connects to — report those directly to the provider
+- Vulnerabilities in third-party model services themselves, which should
+  be reported to their operators. Vulnerabilities in Lorah's integration
+  with those services remain in scope
 - Social engineering or phishing reports unrelated to the product
 - Vulnerabilities in third-party software that Lorah depends on, unless
   Lorah's usage of it materially worsens the impact
