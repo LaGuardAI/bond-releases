@@ -1,107 +1,90 @@
-<p align="center">
-  <img src="https://ai-bond.dev/bond-logo.svg" alt="Lorah" width="96" />
-</p>
+# Lorah
 
-<h1 align="center">Lorah</h1>
+Your project stays. Models can change.
 
-<p align="center"><em>Where your thinking continues.</em></p>
+[Download Lorah](https://github.com/LaGuardAI/bond-releases/releases/latest) ·
+[Quickstart](https://lorah.ai/quickstart/) ·
+[Website](https://lorah.ai/) ·
+[Plans](https://lorah.ai/pricing/)
 
-<p align="center">
-  <a href="https://github.com/LaGuardAI/bond-releases/releases/latest"><b>Download</b></a> ·
-  <a href="https://lorah.ai/quickstart/">Quickstart</a> ·
-  <a href="https://lorah.ai/">Website</a>
-</p>
+Lorah is a local-first desktop workspace for AI-assisted project work. Give
+specialists different roles, work with supported cloud or customer-controlled
+models, and keep your documents and reviewed project knowledge together.
+The project belongs to you, not to one model provider.
 
-<p align="center">
-  <a href="https://github.com/LaGuardAI/bond-releases/releases/latest"><img src="https://img.shields.io/github/v/release/LaGuardAI/bond-releases?label=latest&color=1f3a5f" alt="Latest release" /></a>
-</p>
+Generated memory starts as a proposal. You decide what becomes lasting
+project knowledge, inspect its origin, and correct it when the work changes.
+Shared Memory in the standalone app is shared between your AI specialists;
+it is not a shared workspace for multiple human users.
 
----
-
-Lorah is a local-first desktop app that turns your AI subscriptions into a
-coordinated team of persistent specialists with shared, traceable project
-memory. You bring your own provider keys, configure named teammates, and your
-work — decisions, facts, context — accumulates across sessions instead of
-scattering across chat tabs.
-
-**Lorah is in invite-only alpha.** You'll need a license key to activate. Got an
-invite? Your key is in the email. Don't have one? You can buy a license at
-[lorah.ai](https://lorah.ai/).
+This public repository distributes the standalone application, documentation
+and starter workspaces. It is not the Lorah application source repository.
+Enclave server packages and enterprise deployment materials are not included
+in this distribution.
 
 ## Download
 
-Get the latest build from the
-[**Releases page**](https://github.com/LaGuardAI/bond-releases/releases/latest).
+Choose an installer from the [latest published release](https://github.com/LaGuardAI/bond-releases/releases/latest).
+Read that release's notes and platform requirements before installing.
 
-| Platform | File |
+| Platform | Installer |
 |---|---|
-| Windows 10 or later | `Lorah.Setup.<version>.exe` |
-| macOS 13+ — Apple silicon (M1–M4) | `Lorah-<version>-arm64.dmg` |
-| macOS 13+ — Intel | `Lorah-<version>-x64.dmg` |
+| Windows | `.exe` installer |
+| macOS, Apple silicon | `arm64.dmg` |
+| macOS, Intel | `x64.dmg` |
 
-Not sure which Mac you have? Apple menu →  **About This Mac**. "Apple M…" means
-Apple silicon.
+On a Mac, open **About This Mac** to check whether the machine uses Apple
+silicon or Intel. A local model has its own hardware requirements, separate
+from the requirements for running Lorah.
 
-## Get started
+Installation help: [Windows](docs/install-windows.md) · [macOS](docs/install-macos.md).
 
-The [**Quickstart**](https://lorah.ai/quickstart/) is the canonical guide —
-install, license, first chat, and walkthrough videos for all six surfaces
-(Ask Lorah, Chat, Memory, Sync, Library, Meetings).
+## Start with one useful question
 
-The short version: install → open Lorah → paste your license key in
-**Settings → License** → add at least one provider key (Anthropic, OpenAI,
-Perplexity, or Gemini; stored locally on your machine) → setup builds your
-first workspace and team.
+You do not need a beta invitation to download and start using the Free plan.
+Pro access and beta license grants are separate from access to the download.
+See [Plans](https://lorah.ai/pricing/) and the installed application's license
+settings for the current offer and feature availability.
 
-## Install notes
+1. Create a project or open a starter workspace.
+2. Configure a supported provider API key or compatible model endpoint.
+3. Choose a specialist and ask a question about a real piece of work.
+4. Review any proposed memory before accepting it for later use.
 
-A few things specific to alpha that aren't in the Quickstart:
+API access is separate from consumer chat subscriptions. Specialist model
+support also does not mean that every automatic setup or internal AI job can
+use that same model. Check the requirements shown for the operation.
 
-**Windows.** Installers are Authenticode-signed from v1.4.51 onward; the UAC
-prompt shows **Yoram Golandsky** as the publisher — that's expected, not a
-warning. Only the earliest builds (v1.4.0–v1.4.3) were unsigned and tripped
-SmartScreen.
+The [first-run guide](docs/first-run.md) covers the short path. The website
+[Quickstart](https://lorah.ai/quickstart/) provides the detailed walkthrough.
+For features newly introduced in a release, follow the notes for your
+installed version rather than assuming a development feature is available.
 
-**macOS.** Builds are signed with an Apple Developer ID and notarized, so they
-open without a Gatekeeper warning — you'll see **Yoram Golandsky** as the
-verified developer. If macOS ever blocks the app, re-download the current
-`.dmg`; if it persists, open **System Settings → Privacy & Security → Open
-Anyway**, then email support.
+## Data and model usage
 
-**Upgrading from a pre-v1.4.51 build.** Auto-update does **not** bridge
-v1.4.3 → v1.4.51 — the release feed moved. Install v1.4.51 (or later) once
-manually from the Releases page; auto-update resumes normally after that.
+Standalone project data is stored on your machine. When you use a cloud
+model, the context sent for that operation goes to the configured provider.
+A customer-controlled endpoint is a separate execution destination, not a
+promise that every Lorah operation is offline.
 
-## Known limitations
+Model usage is billed under your provider account. Lorah's subscription and
+model usage are separate costs. Recorded usage can include estimates or
+unpriced work; no reported API charge does not mean local compute is free.
 
-Lorah works, and it's early. Expect:
+Licensing, updates, optional diagnostics and user-requested tools have their
+own network behavior. Read the [privacy explanation](https://lorah.ai/privacy/)
+and the operation's disclosure before using sensitive material.
 
-- **First sync is slow** — 30–60 seconds the first time. Normal; later syncs
-  are faster.
-- **Costs are yours** — you're using your own provider keys. Lorah shows cost
-  per teammate and per sync.
-- **Voice needs an OpenAI key** — transcription uses Whisper; the mic button
-  appears but won't work without one configured.
-- **Branches are for short explorations** — no branch-from-branch, and
-  @-mentions don't resolve while you're on a branch in this build.
-- **Occasional sync hiccup** — if a sync's analysis can't be parsed, Lorah
-  retries once, then continues without injections for that sync rather than
-  blocking you.
+## Updates and support
 
-## Updating
+Follow the installed application's update controls or download an installer
+from the official release page. Keep a current workspace backup before an
+upgrade. Do not delete your project data to troubleshoot an installation.
 
-Lorah checks for updates on launch and installs them the next time you quit and
-relaunch. Check manually at **Settings → Advanced → About**. Your workspaces,
-conversations, memories, and keys are preserved across updates.
+For help, email [support@lorah.ai](mailto:support@lorah.ai). Include the Lorah
+version, operating system and steps to reproduce the problem, without API
+keys, private documents or confidential conversation content.
 
-## Support
-
-Email [support@lorah.ai](mailto:support@lorah.ai). Found a bug? Reply to
-your invite email — we read everything. Discord and a public bug tracker are
-coming.
-
----
-
-Full documentation and walkthrough videos live at the
-[**Quickstart**](https://lorah.ai/quickstart/). This page just gets you to
-the download and flags what's specific to alpha.
+Report vulnerabilities privately using [SECURITY.md](SECURITY.md), not a
+public issue. Release-specific changes are listed in the
+[release history](https://github.com/LaGuardAI/bond-releases/releases).

@@ -1,52 +1,66 @@
-# Lorah alpha user guide
+# Working with Lorah
 
-Lorah turns your AI subscriptions into a coordinated team of persistent
-specialists with shared, traceable project memory. You direct the
-specialists; Lorah holds the memory and the connective tissue between
-them.
+Lorah keeps project work together across specialists and model sessions.
+Start with a useful task, then decide what knowledge deserves to carry
+forward. This guide keeps its historical filename so old links continue to
+work.
 
-## How to use Lorah
+## Specialists and model choice
 
-The how-to lives in the [Quickstart](https://lorah.ai/quickstart/),
-which walks through each of Lorah's six surfaces with short videos:
+A specialist is a role with project context, not a provider account. Use
+supported models behind those roles without rebuilding the project each
+time the execution choice changes. Models can still differ in behavior,
+context limits, cost and available capabilities.
 
-- **Ask Lorah** — your command layer. Ask anything about your project;
-  Lorah answers, cites sources, and routes you to the right place.
-- **Chat** — one-on-one with each teammate. Each keeps its own
-  conversation history and memory of your project.
-- **Memory** — your project's shared brain: goals, decisions, facts, and
-  glossary. Every entry carries provenance — where it came from, who
-  reviewed it, how often it's been used.
-- **Sync** — where teammates share progress and you approve what becomes
-  shared memory.
-- **Library** — pin documents so teammates can reference them.
-- **Meetings** — bring two or more teammates into the same room.
+Talk to one specialist for focused work. Use the multi-specialist workflow
+available in your version when different perspectives would help. Separate
+answers and disagreement are useful inputs to your judgment, not proof that
+an answer is correct.
 
-The deeper guide linked from the Quickstart covers the philosophy behind
-Lorah and every surface in detail.
+## Documents and evidence
 
-## What to expect as an alpha user
+Project documents can be stored, assigned and made available for use.
+Governed Sources add explicit evidence and data-flow controls. An ordinary
+uploaded document is not automatically governed evidence.
 
-Lorah works, and it's early. A few things are slow, rough, or
-deliberately limited in this build — worth knowing up front:
+Check what the operation actually delivered. Stored, assigned and used in a
+particular answer are different facts. Large inputs may be summarized,
+partially delivered or omitted according to the operation and context
+budget.
 
-- **First sync is slow.** 30–60 seconds the first time. That's normal;
-  later syncs are faster.
-- **Watch your costs.** You're using your own provider keys, so usage
-  bills to you. Lorah shows cost per teammate and per sync — keep an eye
-  on them.
-- **Voice input needs an OpenAI key.** Transcription uses OpenAI Whisper.
-  The mic button appears regardless, but won't work until you've added
-  an OpenAI key.
-- **Branches are for short explorations.** You can branch from the main
-  thread of a chat, but not branch from a branch, and @-mentions aren't
-  resolved while you're on a branch in this build.
-- **Occasional sync hiccup.** If a sync's analysis step can't be parsed,
-  Lorah retries once and then continues without injections for that sync
-  rather than blocking you.
+## Reviewed Memory
 
-## Found a bug?
+Model-generated knowledge starts as a proposal. Review its content and
+origin before approving it into lasting project Memory. Correct or supersede
+knowledge when the project changes rather than silently treating old
+statements as current.
 
-Reply to your invite email, or email
-[support@lorah.ai](mailto:support@lorah.ai). We read everything.
-Discord and a public bug tracker are coming.
+Shared Memory in standalone Lorah is available to eligible AI specialists
+in your project. It does not mean the standalone download provides an
+organizational server or a shared project for multiple human users.
+
+Use the capture, review and correction controls documented for your
+installed release. The website [Quickstart](https://lorah.ai/quickstart/)
+contains the detailed walkthrough.
+
+## Model usage and network boundaries
+
+Lorah product access and model-provider usage are billed separately.
+Recorded usage may be provider-reported, estimated or unpriced. A local
+runtime with no API price still consumes machine resources.
+
+Local-first describes project storage. Cloud requests send their selected
+context to the configured provider. A specialist's endpoint selection does
+not automatically govern internal AI jobs, updates, licensing or connected
+tools. Check the operation's prerequisites and disclosure.
+
+## Troubleshooting
+
+Read the [release notes](https://github.com/LaGuardAI/bond-releases/releases)
+for your installed version before following instructions for a new feature.
+If an operation fails, preserve the project and report the visible error,
+version, platform and reproduction steps to
+[support@lorah.ai](mailto:support@lorah.ai).
+
+Do not send API keys or confidential project content. Report security
+vulnerabilities privately using [SECURITY.md](../SECURITY.md).
